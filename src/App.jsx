@@ -1,45 +1,32 @@
+import Navbar from "./Navbar";
+import Home from "./Home";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 import { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
+  const [selected, setSelected] = useState("home");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-3xl font-bold underline">Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {" | "}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <div className="App bg-body text-white font-poppins pb-12">
+      {/* navbar */}
+      <Navbar setSelected={setSelected} />
+
+      {/* home */}
+      <Home selected={selected} setSelected={setSelected} />
+
+      {/* about */}
+      <About />
+
+      {/* projects */}
+      <Projects />
+
+      {/* contact */}
+      <Contact />
+
+      {/* footer */}
     </div>
   );
-}
+};
 
 export default App;
