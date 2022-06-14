@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const App = () => {
-  const [selected, setSelected] = useState("home");
+  const [navOpen, setNavOpen] = useState(false);
   const [homeRef, homeInView] = useInView({
     threshold: 0.5,
   });
@@ -15,7 +15,7 @@ const App = () => {
     threshold: 0.5,
   });
   const [projectsRef, projectsInView] = useInView({
-    threshold: 0.25,
+    threshold: 0.2,
   });
   const [contactRef, contactInView] = useInView({
     threshold: 0.5,
@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div className="App bg-body text-white font-poppins pb-12">
       {/* navbar */}
-      <Navbar setSelected={setSelected} />
+      <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
 
       {/* home */}
       <Home
@@ -33,8 +33,6 @@ const App = () => {
         aboutInView={aboutInView}
         projectsInView={projectsInView}
         contactInView={contactInView}
-        selected={selected}
-        setSelected={setSelected}
       />
 
       {/* about */}

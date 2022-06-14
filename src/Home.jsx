@@ -10,7 +10,7 @@ const Home = forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+      className="container pt-32 md:mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
       <div className="flex flex-wrap md:flex-nowrap z-10">
         {/* nav buttons */}
@@ -68,7 +68,7 @@ const Home = forwardRef((props, ref) => {
         </nav>
 
         {/* content */}
-        <div className="flex flex-wrap md:ml-20 justify-center md:justify-start max-w-xl mt-32 md:mt-24">
+        <div className="flex flex-wrap md:ml-20 justify-center md:justify-start max-w-xl mt-32 md:mt-0">
           <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center md:text-left ">
             Hi, I'm Sam.
           </h1>

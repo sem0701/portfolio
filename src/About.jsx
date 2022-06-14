@@ -18,10 +18,12 @@ const About = forwardRef((props, ref) => {
     { name: "React-Query" },
     { icon: "tailwindcss-plain", name: "TailwindCSS" },
   ];
+  //skills with links
+
   return (
     <div
       ref={ref}
-      className="container mt-80 md:mt-64 flex justify-between items-center mx-auto px-8 md:pl-20 md:pr-14 lg:px-24 w-full"
+      className="container mt-80 md:mt-64 lg:mt-80 flex justify-between items-center mx-auto px-8 md:px-16 lg:px-24  w-full"
     >
       <section className="w-full">
         <h2 id="about" className="secondary-title mb-8">
