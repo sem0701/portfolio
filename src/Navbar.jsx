@@ -5,12 +5,12 @@ const Navbar = (props) => {
 
   return (
     <header className="App-header fixed top-0 md:static py-8 md:py-5 flex justify-between items-center w-full px-8 md:px-16 z-30 bg-body">
-      <div className="text-xl font-bold">Sam Joh</div>
+      <div className="text-xl font-bold">Samuel Joh</div>
       <div className="hidden md:flex space-x-12 items-center">
         <a href="#" className="text-selected-text">
           Home
         </a>
-        <a>About</a>
+        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">
           <Button>Contact Me</Button>
@@ -34,7 +34,7 @@ const Navbar = (props) => {
       <div
         className={
           navOpen
-            ? "overlay transition opacity-1 md:hidden top-0 left-0 w-full h-full flex justify-center items-center bg-body z-20 fixed"
+            ? "overlay md:hidden top-0 left-0 w-full h-full flex justify-center items-center bg-body z-20 fixed"
             : "hidden"
         }
       >

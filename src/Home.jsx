@@ -15,7 +15,7 @@ const Home = forwardRef((props, ref) => {
       <div className="flex flex-wrap md:flex-nowrap z-10">
         {/* nav buttons */}
         <nav className="lg:mr-24 lg:w-4 fixed left-12 hidden md:block  ">
-          <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+          <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-6">
             <a
               href="#"
               className={
@@ -72,9 +72,9 @@ const Home = forwardRef((props, ref) => {
           <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center md:text-left ">
             Hi, I'm Sam.
           </h1>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl text-center md:text-left mt-4 mb-8">
-            I'm a full-stack developer with a passion for building beautiful
-            things.
+          <h2 className="text-3xl sm:text-4xl md:text-4xl text-center md:text-left mt-4 mb-8">
+            I'm a full-stack developer with a passion for tech, audio, and
+            everything in between.
           </h2>
           <a href="#projects">
             <Button>View My Work</Button>
@@ -82,7 +82,7 @@ const Home = forwardRef((props, ref) => {
         </div>
       </div>
       <img
-        src="https://images.unsplash.com/photo-1600509697603-64b5edf46c2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+        src="https://images.unsplash.com/photo-1568993703320-07e80bc8e7ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
         alt=""
         className="absolute right-0 bottom-0 w-full md:w-1/2 h-[calc(100%_-_88px)] object-cover brightness-50 hue-rotate-30 "
       />

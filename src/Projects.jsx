@@ -54,16 +54,16 @@ const Projects = forwardRef((props, ref) => {
 
           {/* bendwell */}
           <div className="w-full border border-nav p-16 lg:px-16 lg:py-20 lg:space-x-8 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
-            <div className="flex flex-col gap-8 mb-6 lg:mb-0">
+            <div className="flex flex-col gap-8 mb-6 lg:mb-0 xl:w-10/12">
               <img src="./bendwell.png" alt="bendwell" className="" />
               <img
                 src="./bendwell_2.png"
                 alt="bendwell"
-                className="hidden lg:inline-block"
+                className="hidden lg:inline-block "
               />
             </div>
 
-            <div className="flex flex-wrap justify-center text-center lg:text-left lg:block">
+            <div className="flex flex-wrap justify-center text-center lg:text-left lg:block lg:px-10">
               <h3 className="text-white text-3xl font-semibold">bendwell</h3>
 
               <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
@@ -104,7 +104,7 @@ const Projects = forwardRef((props, ref) => {
 
           {/* foodie */}
           <div className="w-full border border-nav p-16 lg:px-16 lg:py-20 lg:space-x-8 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
-            <div className="flex flex-col gap-8 mb-6 lg:mb-0">
+            <div className="flex flex-col gap-8 mb-6 lg:mb-0 xl:w-full">
               <img src="./foodie.png" alt="foodie" className="" />
               <img
                 src="./foodie_2.png"
@@ -113,7 +113,7 @@ const Projects = forwardRef((props, ref) => {
               />
             </div>
 
-            <div className="flex flex-wrap justify-center text-center lg:text-left lg:block">
+            <div className="flex flex-wrap justify-center text-center lg:text-left lg:block lg:px-10">
               <h3 className="text-white text-3xl font-semibold">Foodie</h3>
 
               <div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
