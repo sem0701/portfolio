@@ -37,7 +37,7 @@ const Home = forwardRef((props, ref) => {
               }
             >
               <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-                Work
+                About
               </span>
             </a>
             <a
@@ -49,7 +49,7 @@ const Home = forwardRef((props, ref) => {
               }
             >
               <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-                Clients
+                Projects
               </span>
             </a>
             <a
@@ -61,7 +61,7 @@ const Home = forwardRef((props, ref) => {
               }
             >
               <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">
-                Hire
+                Contact
               </span>
             </a>
           </div>
@@ -76,9 +76,9 @@ const Home = forwardRef((props, ref) => {
             I'm a full-stack developer with a passion for building beautiful
             things.
           </h2>
-          {/* <div className="w-full flex justify-center md:justify-start"> */}
-          <Button>View My Work</Button>
-          {/* </div> */}
+          <a href="#projects">
+            <Button>View My Work</Button>
+          </a>
         </div>
       </div>
       <img

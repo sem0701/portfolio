@@ -3,7 +3,7 @@ import Button from "./Button";
 const Navbar = (props) => {
   const setSelected = props.setSelected;
   return (
-    <header className="App-header py-6 flex justify-between items-center w-full px-8 md:px-16">
+    <header className="App-header py-5 flex justify-between items-center w-full px-8 md:px-16">
       <div className="text-xl font-bold">Sam Joh</div>
       <div className="hidden md:flex space-x-12 items-center">
         <a href="#" className="text-selected-text">
