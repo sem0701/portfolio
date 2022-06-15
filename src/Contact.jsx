@@ -17,10 +17,14 @@ const Contact = forwardRef((props, ref) => {
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-10 mb-32">
           <div className="space-y-8">
             <label className="text-white block mb-6 text-xl font-bold">
-              Email: samueljoh329@gmail.com
+              Email:
+              <a href="mailto:samueljoh329@gmail.com">
+                {" "}
+                samueljoh329@gmail.com
+              </a>
             </label>
             <label className="text-white block mb-5 text-xl font-bold">
-              Phone: (469) 230-4480
+              Phone: <a href="tel:4692304480">(469) 230-4480</a>
             </label>
             <div className="flex gap-4">
               <a href="https://www.linkedin.com/in/samuel-joh/">
