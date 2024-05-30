@@ -11,11 +11,11 @@ const Experience = forwardRef((props, ref) => {
         <h2 id="experience" className="secondary-title">
           Experience
         </h2>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           <h3 className="text-3xl font-semibold my-6">
             Software Engineer - Givebacks
           </h3>
-          <div>
+          <div className="mb-6 md:mb-0">
             <Button>
               <a href="https://givebacks.com/" target="_blank">
                 Visit site
@@ -29,7 +29,7 @@ const Experience = forwardRef((props, ref) => {
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white">
               Actively contributed to consumer and admin-facing platforms,
-              scaling from 5,000 to over 230,000 users, demonstrating
+              scaling from &lt;5,000 to over 230,000 users, demonstrating
               proficiency in building and maintaining high-traffic applications.
             </h3>
           </li>
