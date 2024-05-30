@@ -11,10 +11,15 @@ const Experience = forwardRef((props, ref) => {
         <h2 id="experience" className="secondary-title">
           Experience
         </h2>
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-          <h3 className="text-3xl font-semibold my-6">
-            Software Engineer - Givebacks
-          </h3>
+        <div className="flex flex-col gap-4 md:flex-row justify-between items-start md:items-center my-8">
+          <div className="flex flex-col gap-0 ">
+            <h3 className="text-3xl font-semibold ">
+              Software Engineer - Givebacks
+            </h3>
+            <h4 className="text-lg font-normal text-white ">
+              July 2022 - Present
+            </h4>
+          </div>
           <div className="mb-6 md:mb-0">
             <Button>
               <a href="https://givebacks.com/" target="_blank">
