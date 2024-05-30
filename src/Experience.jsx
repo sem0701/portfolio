@@ -28,35 +28,44 @@ const Experience = forwardRef((props, ref) => {
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white">
-              Actively contributed to consumer and admin-facing platforms,
-              scaling from &lt;5,000 to over 230,000 users, demonstrating
-              proficiency in building and maintaining high-traffic applications.
+              Actively <strong>contributed</strong> to consumer and admin-facing
+              platforms, <strong>scaling</strong> from &lt;5,000 to over 230,000
+              users, demonstrating <strong>proficiency in building</strong> and{" "}
+              <strong>maintaining high-traffic</strong> applications.
             </h3>
           </li>
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white">
-              Built features across multiple repositories using React,
-              TypeScript, Tanstack Query, Jotai, Mantine, React Native, and
-              other modern frontend technologies, showcasing versatility and
-              staying up-to-date with industry trends.{" "}
+              <strong>Built features</strong> across multiple repositories using{" "}
+              <strong>
+                React, TypeScript, Tanstack Query, Jotai, Mantine, React Native,
+              </strong>{" "}
+              and other modern frontend technologies, showcasing{" "}
+              <strong>versatility</strong> and{" "}
+              <strong>staying up-to-date with industry trends.</strong>{" "}
             </h3>
           </li>
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white">
-              Proficient in refactoring and migrating codebases to leverage
+              <strong>Proficient</strong> in{" "}
+              <strong>refactoring and migrating</strong> codebases to leverage
               modern technologies and architectural patterns, including
-              transitioning from Redux to Jotai/Context for more efficient state
-              management, and from Tailwind CSS/Sass to Mantine UI library for
-              enhanced component styling and theming.
+              transitioning from <strong>Redux to Jotai/Context</strong> for
+              more <strong>efficient state management</strong>, and from{" "}
+              <strong>Tailwind CSS/Sass to Mantine UI library</strong> for
+              enhanced <strong>component styling and theming.</strong>
             </h3>
           </li>
           <li class="ms-4">
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white mb-2">
-              Spearheaded the development of an internal API documentation site,
-              improving developer experience and collaboration across the team.
+              <strong> Spearheaded the development</strong> of an internal API
+              documentation site with{" "}
+              <strong>Tanstack Router and Mantine</strong>,{" "}
+              <strong>improving developer experience</strong> and collaboration
+              across the team.
             </h3>
             <ButtonOutline size="sm">
               <a

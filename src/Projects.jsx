@@ -22,7 +22,7 @@ const Projects = forwardRef((props, ref) => {
                 <div className="badge">JavaScript</div>
                 <div className="badge">React</div>
                 <div className="badge">TailwindCSS</div>
-                <div className="badge">React-Query</div>
+                <div className="badge">Tanstack Query</div>
                 <div className="badge">Supabase</div>
               </div>
 
