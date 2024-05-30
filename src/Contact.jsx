@@ -4,7 +4,7 @@ const Contact = forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="container mt-48 flex justify-between items-center mx-auto px-8 md:pl-20 md:pr-14 lg:px-24 w-full"
+      className="container flex justify-between items-center mx-auto px-8 md:pl-20 md:pr-14 lg:px-24 w-full"
     >
       <section className="w-full">
         <h2 id="contact" className="secondary-title">
@@ -14,7 +14,7 @@ const Contact = forwardRef((props, ref) => {
           Connect with me through any of the following:
         </p>
 
-        <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-10 mb-32">
+        <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mb-32">
           <div className="space-y-8">
             <label className="text-white block mb-6 text-xl font-bold">
               Email:

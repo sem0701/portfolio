@@ -2,28 +2,28 @@ import { forwardRef } from "react";
 
 const About = forwardRef((props, ref) => {
   const skills = [
+    { icon: "typescript-plain", name: "TypeScript" },
+    { icon: "react-plain", name: "React" },
+    { name: "Tanstack Query" },
+    { icon: "tailwindcss-plain", name: "TailwindCSS" },
     { icon: "html5-plain", name: "HTML5" },
     { icon: "css3-plain", name: "CSS3" },
     { icon: "sass-plain", name: "SASS" },
     { icon: "javascript-plain", name: "JavaScript" },
-    { icon: "react-plain", name: "React" },
     { icon: "redux-plain", name: "Redux" },
     { icon: "nodejs-plain", name: "NodeJS" },
     { icon: "express-original", name: "Express" },
     { icon: "sequelize-plain", name: "Sequelize" },
-    { icon: "typescript-plain", name: "TypeScript" },
     { icon: "postgresql-plain", name: "PostgreSQL" },
     { image: "./supabase_logo.png", name: "Supabase" },
     { icon: "tensorflow-original", name: "TensorFlow" },
-    { name: "React-Query" },
-    { icon: "tailwindcss-plain", name: "TailwindCSS" },
   ];
   //skills with links
 
   return (
     <div
       ref={ref}
-      className="container mt-80 md:mt-64 lg:mt-80 flex justify-between items-center mx-auto px-8 md:px-16 lg:px-24  w-full"
+      className="container mt-24  flex justify-between items-center mx-auto px-8 md:px-16 lg:px-24  w-full"
     >
       <section className="w-full">
         <h2 id="about" className="secondary-title mb-8">

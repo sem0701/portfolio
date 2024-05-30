@@ -1,10 +1,11 @@
-import Navbar from "./Navbar";
-import Home from "./Home";
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
 import { useState } from "react";
 import { useInView } from "react-intersection-observer";
+import About from "./About";
+import Contact from "./Contact";
+import Experience from "./Experience";
+import Home from "./Home";
+import Navbar from "./Navbar";
+import Projects from "./Projects";
 
 const App = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -14,8 +15,11 @@ const App = () => {
   const [aboutRef, aboutInView] = useInView({
     threshold: 0.5,
   });
+  const [experienceRef, experienceInView] = useInView({
+    threshold: 0.5,
+  });
   const [projectsRef, projectsInView] = useInView({
-    threshold: 0.2,
+    threshold: 0.3,
   });
   const [contactRef, contactInView] = useInView({
     threshold: 0.5,
@@ -26,25 +30,29 @@ const App = () => {
       {/* navbar */}
       <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
 
-      {/* home */}
-      <Home
-        ref={homeRef}
-        homeInView={homeInView}
-        aboutInView={aboutInView}
-        projectsInView={projectsInView}
-        contactInView={contactInView}
-      />
+      <div className="flex flex-col gap-24 md:gap-48 ">
+        {/* home */}
+        <Home
+          ref={homeRef}
+          homeInView={homeInView}
+          aboutInView={aboutInView}
+          experienceInView={experienceInView}
+          projectsInView={projectsInView}
+          contactInView={contactInView}
+        />
 
-      {/* about */}
-      <About ref={aboutRef} inView={aboutInView} />
+        {/* about */}
+        <About ref={aboutRef} inView={aboutInView} />
 
-      {/* projects */}
-      <Projects ref={projectsRef} inView={projectsInView} />
+        {/* experience */}
+        <Experience ref={experienceRef} inView={experienceInView} />
 
-      {/* contact */}
-      <Contact ref={contactRef} inView={contactInView} />
+        {/* projects */}
+        <Projects ref={projectsRef} inView={projectsInView} />
 
-      {/* footer */}
+        {/* contact */}
+        <Contact ref={contactRef} inView={contactInView} />
+      </div>
     </div>
   );
 };

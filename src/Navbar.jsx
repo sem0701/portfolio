@@ -1,4 +1,4 @@
-import Button from "./Button";
+import { Button } from "./Button";
 
 const Navbar = (props) => {
   const { navOpen, setNavOpen } = props;
@@ -11,6 +11,7 @@ const Navbar = (props) => {
           Home
         </a>
         <a href="#about">About</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#contact">
           <Button>Contact Me</Button>
@@ -66,6 +67,15 @@ const Navbar = (props) => {
             }}
           >
             About
+          </a>
+          <a
+            href="#experience"
+            className="hover:text-selected-text hover:ease-in-out duration-150"
+            onClick={() => {
+              setNavOpen(false);
+            }}
+          >
+            Experience
           </a>
           <a
             href="#projects"

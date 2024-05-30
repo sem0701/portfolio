@@ -4,7 +4,7 @@ const Projects = forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="container mt-48 flex justify-between items-center mx-auto px-8 md:pl-20 md:pr-14 lg:px-24 w-full"
+      className="container flex justify-between items-center mx-auto px-8 md:pl-20 md:pr-14 lg:px-24 w-full"
     >
       <section className="w-full">
         <h2 id="projects" className="secondary-title">
