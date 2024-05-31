@@ -33,34 +33,35 @@ const Experience = forwardRef((props, ref) => {
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white">
-              Actively <strong>contributed</strong> to consumer and admin-facing
+              <strong>Contributed actively</strong> to consumer and admin-facing
               platforms, <strong>scaling</strong> from &lt;5,000 to over 230,000
-              users, demonstrating <strong>proficiency in building</strong> and{" "}
+              users, demonstrating proficiency in building and{" "}
               <strong>maintaining high-traffic</strong> applications.
             </h3>
           </li>
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white">
-              <strong>Built features</strong> across multiple repositories using{" "}
+              <strong>Developed features</strong> across multiple repositories
+              using{" "}
               <strong>
                 React, TypeScript, Tanstack Query, Jotai, Mantine, React Native,
               </strong>{" "}
               and other modern frontend technologies, showcasing{" "}
-              <strong>versatility</strong> and{" "}
-              <strong>staying up-to-date with industry trends.</strong>{" "}
+              <strong>versatility</strong> and staying{" "}
+              <strong>up-to-date with industry trends.</strong>
             </h3>
           </li>
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 -left-[6.5px] bg-gray-200 rounded-full mt-1.5  border border-white"></div>
             <h3 class="text-lg font-normal text-gray-100 dark:text-white">
-              <strong>Proficient</strong> in{" "}
-              <strong>refactoring and migrating</strong> codebases to leverage
+              <strong>Refactored and migrated</strong> codebases to leverage
               modern technologies and architectural patterns, including
               transitioning from <strong>Redux to Jotai/Context</strong> for
-              more <strong>efficient state management</strong>, and from{" "}
-              <strong>Tailwind CSS/Sass to Mantine UI library</strong> for
-              enhanced <strong>component styling and theming.</strong>
+              more efficient state management, and from{" "}
+              <strong>Tailwind CSS/Sass to Mantine UI</strong> to implement and
+              integrate a uniform component library with{" "}
+              <strong>Storybook</strong>.
             </h3>
           </li>
           <li class="ms-4">
