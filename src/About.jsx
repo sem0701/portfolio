@@ -84,18 +84,18 @@ const About = forwardRef((props, ref) => {
             <div key={name} className="flex items-center w-full">
               <a href={link} target="_blank">
                 {image ? (
-                  <div className="flex flex-col gap-2 justify-center items-center border border-nav p-8 w-full">
+                  <div className="flex flex-col gap-2 justify-center items-center border border-nav p-8 pb-0 w-full">
                     <img src={image} alt={name} className="w-24 h-24" />
-                    <p className="text-center whitespace-nowrap">{name}</p>
+                    <p className="text-center h-12 w-24">{name}</p>
                   </div>
                 ) : icon ? (
-                  <div className="flex flex-col gap-2 justify-center items-center border border-nav p-8 w-full">
+                  <div className="flex flex-col gap-2 justify-center items-center border border-nav p-8 pb-0 w-full">
                     <i className={`devicon-${icon} text-8xl`}></i>
-                    <p className="text-center">{name}</p>
+                    <p className="text-center h-12">{name}</p>
                   </div>
                 ) : (
-                  <div className="flex flex-col h-48 gap-2 justify-center items-center border border-nav p-8 w-full">
-                    <p className="text-center">{name}</p>
+                  <div className="flex flex-col h-48 gap-2 justify-center items-center border border-nav p-8 pb-0 w-full">
+                    <p className="text-center h-12">{name}</p>
                   </div>
                 )}
               </a>
